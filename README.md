@@ -1,26 +1,75 @@
-<div dir="rtl" align="right">
+# 🌊 Azure Coast | الساحل الأزرق 🏖️
 
-# 🌊 Azure Coast - Team Project 🏖️
+<div align="center">
 
-أهلاً بيكم يا شباب في ريبو مشروعنا **"Azure Coast"** 💙
-المشروع عبارة عن موقع لحجز الشاليهات والمنتجعات في الساحل الشمالي.
+# 🌊 AZURE COAST
 
-الملف ده هو **"الخريطة"** بتاعتنا. كل واحد فينا مسؤول عن ملفات معينة، فمحدش يعدل على شغل التاني عشان منبوظش الدنيا 😅.
+### Your Perfect Summer Destination
+
+**منصة لحجز الشاليهات والمنتجعات في الساحل الشمالي**
+
+اكتشف وجهتك المثالية، استعرض أفضل الشاليهات، واحجز إجازتك بكل سهولة!
+
+<br>
+
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+
+<br>
+
+**🎓 University Team Project | 💙 Azure Coast Development Team**
+
+</div>
 
 ---
 
-## 📂 هيكل المشروع (Project Structure)
+<div dir="rtl" align="right">
 
-المشروع متقسم لجزئين: 
-1. **Frontend** (شغل الـ HTML, CSS, JS).
-2. **Backend** (شغل الـ PHP والـ MySQL).
+## 🌴 عن المشروع | About The Project
+
+**Azure Coast** هو مشروع ويب يهدف إلى توفير منصة سهلة الاستخدام لحجز الشاليهات والمنتجعات في الساحل الشمالي.
+
+يتيح الموقع للمستخدمين استعراض الشاليهات المتاحة، مشاهدة تفاصيل كل شاليه، إنشاء حساب، تسجيل الدخول، وإدارة حجوزاتهم من خلال واجهة بسيطة ومنظمة.
+
+### ✨ Project Goals
+
+- 🏡 عرض الشاليهات والمنتجعات المتاحة.
+- 🔍 استعراض تفاصيل كل شاليه.
+- 👤 إنشاء حساب وتسجيل الدخول.
+- 📅 إمكانية إجراء الحجوزات.
+- 📋 متابعة الحجوزات الشخصية.
+- 💻 توفير تجربة استخدام سهلة ومنظمة.
+
+---
+
+## 🛠️ Technologies Used
+
+| Technology | Usage |
+|:---:|---|
+| HTML5 | بناء صفحات الموقع |
+| CSS3 | تصميم وتنسيق الواجهات |
+| JavaScript | التفاعل مع المستخدم |
+| PHP | معالجة البيانات والطلبات |
+| MySQL | تخزين وإدارة البيانات |
+
+---
+
+## 📂 Project Structure
+
+المشروع مقسوم إلى جزئين أساسيين:
+
+- **Frontend:** مسؤول عن واجهة المستخدم والتفاعل معها.
+- **Backend:** مسؤول عن معالجة الطلبات والتعامل مع قاعدة البيانات.
 
 </div>
 
 ```text
 Azure-Coast/
 │
-├── frontend/               ← (الواجهة بتاعت المستخدم)
+├── "***  frontend    ***"/
 │   ├── index.html
 │   ├── about.html
 │   ├── chalets.html
@@ -43,25 +92,110 @@ Azure-Coast/
 │   │
 │   └── images/
 │
-├── backend/                ← (الخادم وقاعدة البيانات)
+├──" *****       backend     *****"/
 │   ├── config/
 │   │   └── db.php
+│   │
 │   ├── auth/
 │   │   ├── login_action.php
 │   │   ├── register_action.php
 │   │   └── logout_action.php
+│   │
 │   ├── chalets/
 │   │   ├── get_chalets.php
 │   │   └── get_chalet_details.php
+│   │
 │   └── bookings/
 │       ├── create_booking.php
 │       └── get_my_bookings.php
 │
 └── database.sql
+```
 
 <div dir="rtl" align="right">
-🤝 دلوقتي تقسيم المشروع (شغل الإكسيل 😎)
-<table style="width:100%; border-collapse: collapse; text-align: right; border: 2px solid #007BFF;"> <thead> <tr style="background-color: #007BFF; color: white;"> <th style="padding: 12px; border: 1px solid #ddd;">العضو</th> <th style="padding: 12px; border: 1px solid #ddd;">بيعمل إيه؟</th> <th style="padding: 12px; border: 1px solid #ddd;">ملفات الـ Frontend (HTML/JS)</th> <th style="padding: 12px; border: 1px solid #ddd;">ملفات الـ Backend (PHP)</th> </tr> </thead> <tbody> <tr style="background-color: #f9f9f9;"> <td style="padding: 10px; border: 1px solid #ddd;"><b>عضو 1</b></td> <td style="padding: 10px; border: 1px solid #ddd;">اللوجين والإعدادات</td> <td style="padding: 10px; border: 1px solid #ddd;">login.html, register.html, js/auth.js</td> <td style="padding: 10px; border: 1px solid #ddd;">config/db.php, auth/login_action.php, auth/register_action.php, auth/logout_action.php</td> </tr> <tr> <td style="padding: 10px; border: 1px solid #ddd;"><b>عضو 2</b></td> <td style="padding: 10px; border: 1px solid #ddd;">الصفحة الرئيسية</td> <td style="padding: 10px; border: 1px solid #ddd;">index.html, js/main.js (الهيدر والفوتر)</td> <td style="padding: 10px; border: 1px solid #ddd;">(مفيش شغل باك إند)</td> </tr> <tr style="background-color: #f9f9f9;"> <td style="padding: 10px; border: 1px solid #ddd;"><b>عضو 3</b></td> <td style="padding: 10px; border: 1px solid #ddd;">صفحة About</td> <td style="padding: 10px; border: 1px solid #ddd;">about.html</td> <td style="padding: 10px; border: 1px solid #ddd;">(مفيش شغل باك إند)</td> </tr> <tr> <td style="padding: 10px; border: 1px solid #ddd;"><b>عضو 4</b></td> <td style="padding: 10px; border: 1px solid #ddd;">صفحة الشاليهات</td> <td style="padding: 10px; border: 1px solid #ddd;">chalets.html, js/chalets.js</td> <td style="padding: 10px; border: 1px solid #ddd;">chalets/get_chalets.php</td> </tr> <tr style="background-color: #f9f9f9;"> <td style="padding: 10px; border: 1px solid #ddd;"><b>عضو 5</b></td> <td style="padding: 10px; border: 1px solid #ddd;">تفاصيل الشاليه</td> <td style="padding: 10px; border: 1px solid #ddd;">chalet-details.html, js/chalet-details.js</td> <td style="padding: 10px; border: 1px solid #ddd;">chalets/get_chalet_details.php</td> </tr> <tr> <td style="padding: 10px; border: 1px solid #ddd;"><b>عضو 6</b></td> <td style="padding: 10px; border: 1px solid #ddd;">صفحة الحجز</td> <td style="padding: 10px; border: 1px solid #ddd;">booking.html, js/booking.js</td> <td style="padding: 10px; border: 1px solid #ddd;">bookings/create_booking.php</td> </tr> <tr style="background-color: #f9f9f9;"> <td style="padding: 10px; border: 1px solid #ddd;"><b>عضو 7</b></td> <td style="padding: 10px; border: 1px solid #ddd;">حجوزاتي</td> <td style="padding: 10px; border: 1px solid #ddd;">my-bookings.html, js/my-bookings.js</td> <td style="padding: 10px; border: 1px solid #ddd;">bookings/get_my_bookings.php</td> </tr> </tbody> </table>
 
-يا جماعة، الخريطة قدامكم، كل واحد يختار رقمه ويبدأ شغل. أي حد يقف معاه حاجة يكلمني. بالتوفيق 💪🔥
+---
+
+## 🤝 Team Members & Responsibilities
+
+كل عضو مسؤول عن مجموعة ملفات محددة، وده بيساعدنا ننظم الشغل ونتجنب التعارض أثناء التطوير.
+
+### 👨‍💻 توزيع المهام
+
+</div>
+
+| Member | Responsibility | Frontend Files | Backend Files |
+|:---:|---|---|---|
+| **Member 1** | 🔐 Authentication & Configuration | `login.html`<br>`register.html`<br>`js/auth.js` | `config/db.php`<br>`auth/login_action.php`<br>`auth/register_action.php`<br>`auth/logout_action.php` |
+| **Member 2** | 🏠 Home Page | `index.html`<br>`js/main.js` (Header & Footer) | — |
+| **Member 3** | ℹ️ About Page | `about.html` | — |
+| **Member 4** | 🏡 Chalets Listing | `chalets.html`<br>`js/chalets.js` | `chalets/get_chalets.php` |
+| **Member 5** | 🔎 Chalet Details | `chalet-details.html`<br>`js/chalet-details.js` | `chalets/get_chalet_details.php` |
+| **Member 6** | 📅 Booking System | `booking.html`<br>`js/booking.js` | `bookings/create_booking.php` |
+| **Member 7** | 📋 My Bookings | `my-bookings.html`<br>`js/my-bookings.js` | `bookings/get_my_bookings.php` |
+
+<div dir="rtl" align="right">
+
+---
+
+## ⚠️ Team Collaboration Rules
+
+علشان نضمن إن الشغل يمشي بشكل منظم، كل أعضاء الفريق ملتزمين بالقواعد التالية:
+
+1. **File Ownership:** كل عضو مسؤول عن الملفات المحددة ليه في جدول توزيع المهام.
+2. **No Unauthorized Changes:** ممنوع تعديل ملفات عضو تاني بدون الرجوع ليه والاتفاق معاه.
+3. **Git Workflow:** كل عضو يشتغل على الـ Branch الخاص بيه قبل دمج التعديلات في المشروع.
+4. **Communication:** أي تعديل محتاج يؤثر على ملفات عضو آخر لازم يتم الاتفاق عليه مسبقاً.
+5. **Code Organization:** لازم نحافظ على تنظيم الملفات وطريقة كتابة الكود في المشروع.
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone YOUR_REPOSITORY_URL
+```
+
+### 2. Move to the Project Directory
+
+```bash
+cd Azure-Coast
+```
+
+### 3. Setup the Database
+
+- افتح phpMyAdmin.
+- أنشئ قاعدة البيانات المطلوبة.
+- استورد ملف `database.sql`.
+
+### 4. Configure Database Connection
+
+قم بتعديل إعدادات الاتصال بقاعدة البيانات داخل:
+
+```text
+backend/config/db.php
+```
+
+### 5. Run the Project
+
+شغّل المشروع باستخدام بيئة محلية تدعم PHP وMySQL مثل XAMPP، ثم افتح واجهة المشروع من المتصفح.
+
+---
+
+## 💙 Our Team
+
+**Built with teamwork, passion, and a shared vision.**
+
+</div>
+
+<div align="center">
+
+### 🌊 Azure Coast
+
+*Making your summer reservations easier.*
+
+**Enjoy the coast. Enjoy the moment. 🏖️**
+
 </div>
